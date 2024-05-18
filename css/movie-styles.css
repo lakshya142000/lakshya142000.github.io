@@ -1,0 +1,62 @@
+body{
+    background-color: gray;
+}
+/* Nav Bar */
+#logo{
+    width: 8vw;
+    height: 4vw;
+    border-radius: 5px;
+}
+#Navtxt{
+    color:orange;
+    margin-right: 82%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: larger;
+    
+}
+/* Body */
+.card{
+    color: rgb(59, 58, 58);
+    margin: 10rem;
+    height: 32vw;
+    width: 75vw;
+    margin-top: 5px;
+}
+.gen-text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: gray;
+}
+.fa-star {
+    color: gold;
+}
+.btn{
+    height: auto;
+    width: auto;
+    background-color: black;
+    border: 2px solid gold;
+    color: white;
+}
+#mImage{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 15px 6px 5px lightgray;
+}
+#mTitle{
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: 600;
+}
+.fade-in-image {
+    animation: fadeIn 5s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  

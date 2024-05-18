@@ -1,0 +1,89 @@
+body{
+    background-color: grey;
+}
+#logo{
+    width: 8vw;
+    height: 4vw;
+    border-radius: 5px;
+}
+#home{
+    color:orange;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: larger;
+}
+
+/* Movie Contents */
+a {
+    box-sizing: border-box;
+  }
+  
+  #movieContainer {
+    width: inherit;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+  }
+  
+  .card {
+    border: transparent;
+    background-color: lightgray;
+    width: 10rem;
+  }
+  
+  .card > img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  
+  .cardTitle {
+    font-size: medium;
+    font-weight: 500;
+  }
+  
+  .cardTitle a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .cardTitle a:hover {
+    text-decoration: underline;
+  }
+  
+  .card-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .fa-star {
+    color: gold;
+  }
+  
+  #rating {
+    color: rgb(105, 100, 100);
+    font-size: small;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+  }
+  
+  .fav-btn {
+    border: transparent;
+    background-color: transparent;
+    text-align: center;
+  }
+  
+  .fa-heart {
+    color:white;
+  }
+  
+  .fa-heart:hover {
+    color: red;
+  }
+  #fav-txt{
+    color: white;
+  }
+  

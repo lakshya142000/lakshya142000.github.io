@@ -1,0 +1,99 @@
+body{
+    background-color: gray;
+}
+#logo{
+    width: 8vw;
+    height: 4vw;
+    border-radius: 5px;
+}
+#home{
+    color:orange;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: larger;
+}
+#Navtxt{
+    color:orange;
+    margin-right: 78%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: larger;
+}
+#backLink{
+    color:orange;
+    text-decoration: none;
+    margin: auto;
+    border: 2px solid white;
+    padding: 2px5;
+}
+
+/* Body */
+#favContainer {
+    margin-top: 10px;
+    width: inherit;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+}
+
+.card {
+    border: transparent;
+    background-color: lightgray;
+    width: 10rem;
+  }
+  
+  .card > img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  
+  .cardTitle {
+    font-size: medium;
+    font-weight: 500;
+  }
+  
+  .cardTitle a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .cardTitle a:hover {
+    text-decoration: underline;
+  }
+  
+  .card-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .fa-star {
+    color: gold;
+  }
+
+  .delete-btn {
+    
+    cursor: pointer;
+  }
+  
+  .fa-trash-can {
+    color: gray;
+    font-size: 1.3rem;
+    margin-left: 50;
+  }
+  
+  .fa-trash-can:hover {
+    color: rgb(29, 28, 28);
+  }
+  
+  
+  #rating {
+    color: rgb(105, 100, 100);
+    font-size: small;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+  }
